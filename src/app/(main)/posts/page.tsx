@@ -1,4 +1,5 @@
 import BackButton from "@/components/BackButton";
+import PostsPagination from "@/components/posts/PostPagination";
 import PostsTable from "@/components/posts/PostsTable";
 
 const PostPage = () => {
@@ -6,6 +7,7 @@ const PostPage = () => {
     <>
       <BackButton text="go Back" link="/" />
       <PostsTable />
+      <PostsPagination />
     </>
   );
 };
