@@ -1,0 +1,86 @@
+import { Post } from "../types/post";
+
+const posts: Post[] = [
+  {
+    id: "1",
+    title: "The Rise of Artificial Intelligence",
+    body: "Artificial Intelligence (AI) is revolutionizing various industries...",
+    author: "John Doe",
+    date: "2024-05-01",
+    comments: [{ id: "1", text: "Great introduction", username: "Jane" }],
+  },
+  {
+    id: "2",
+    title: "The Future of Renewable Energy",
+    body: "Renewable energy sources are becoming more viable...",
+    author: "Alice Smith",
+    date: "2024-05-02",
+    comments: [{ id: "2", text: "Very informative", username: "Bob" }],
+  },
+  {
+    id: "3",
+    title: "Blockchain Technology Explained",
+    body: "Blockchain technology underpins cryptocurrencies...",
+    author: "Charlie Brown",
+    date: "2024-05-03",
+    comments: [{ id: "3", text: "Clear explanation", username: "Dave" }],
+  },
+  {
+    id: "4",
+    title: "The Impact of Climate Change",
+    body: "Climate change is a pressing global issue...",
+    author: "Diana Prince",
+    date: "2024-05-04",
+    comments: [{ id: "4", text: "Eye-opening", username: "Eve" }],
+  },
+  {
+    id: "5",
+    title: "Advancements in Quantum Computing",
+    body: "Quantum computing is poised to revolutionize computing...",
+    author: "Ethan Hunt",
+    date: "2024-05-05",
+    comments: [{ id: "5", text: "Fascinating read", username: "Frank" }],
+  },
+  {
+    id: "6",
+    title: "Exploring Space: The Next Frontier",
+    body: "Space exploration has always captured the human imagination...",
+    author: "Grace Hopper",
+    date: "2024-05-06",
+    comments: [{ id: "6", text: "Inspiring", username: "Hank" }],
+  },
+  {
+    id: "7",
+    title: "The Evolution of the Internet",
+    body: "The internet has transformed the way we communicate...",
+    author: "Ivy Lee",
+    date: "2024-05-07",
+    comments: [{ id: "7", text: "Very detailed", username: "Ivan" }],
+  },
+  {
+    id: "8",
+    title: "The Role of Big Data in Modern Business",
+    body: "Big Data analytics are driving decisions in business...",
+    author: "Jack Ryan",
+    date: "2024-05-08",
+    comments: [{ id: "8", text: "Highly relevant", username: "Jill" }],
+  },
+  {
+    id: "9",
+    title: "Cybersecurity in the Digital Age",
+    body: "With the rise of digital technologies, cybersecurity has become crucial...",
+    author: "Kevin Mitnick",
+    date: "2024-05-09",
+    comments: [{ id: "9", text: "Must-read", username: "Karen" }],
+  },
+  {
+    id: "10",
+    title: "The Future of Work: Remote and Hybrid Models",
+    body: "The COVID-19 pandemic accelerated the shift to remote work...",
+    author: "Linda Hill",
+    date: "2024-05-10",
+    comments: [{ id: "10", text: "Well-explained", username: "Leo" }],
+  },
+];
+
+export default posts;
